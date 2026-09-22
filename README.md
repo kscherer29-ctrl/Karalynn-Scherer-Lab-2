@@ -1,1 +1,4 @@
-# Karalynn-Scherer-Lab-2
+x = 1
+while(True)
+    print(x)
+    x = x + 1
