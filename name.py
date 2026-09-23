@@ -1,11 +1,11 @@
 import random
 
-game_number = random.randint(1,10)
+game_number = random.randint(1,100)
 #print(game_number)
 attempts = 0
 
 while(True):
-    guess = int(input("Enter a number between 1 and 10: "))
+    guess = int(input("Enter a number between 1 and 100: "))
     attempts += 1
 
     if guess > game_number:
